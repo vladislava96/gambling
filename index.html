@@ -4,71 +4,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">bout us</a></li>
-        <li><a href="#">Brands</a></li>
-        <li><a href="#">Commissions</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">Careers</a></li>
-      </ul>
-    </nav>
-    <div>
-      <button>EN</button>
-      <button>LOG IN</button>
-      <button>SIGN UP</button>
+  <header class="header">
+    <div class="container header__container">
+      <nav class="header__menu">
+        <ul class="item-list">
+          <li class="item"><a class="menu-link" href="#">About us</a></li>
+          <li class="item"><a class="menu-link" href="#">Brands</a></li>
+          <li class="item"><a class="menu-link" href="#">Commissions</a></li>
+          <li class="item"><a class="menu-link" href="#">News</a></li>
+          <li class="item"><a class="menu-link" href="#">Contact us</a></li>
+          <li class="item"><a class="menu-link" href="#">Careers</a></li>
+        </ul>
+      </nav>
+      <div class="header__buttons">
+        <button class="main-button">
+          <img class="main-button__icon" src="/src/svg/language.svg" alt="planet">
+          EN
+        </button>
+        <button class="main-button">LOG IN</button>
+        <button class="main-button main-button_active">SIGN UP</button>
+      </div>
     </div>
   </header>
-  <section>
-    <div>
-      <h1>HOUSE OF GAMBLING</h1>
-      <p>Raise your ROI with direct advertiser</p>
-      <button>Become a Partner</button>
-    </div>
-    <div>
-      BLOG
-      <div>
-        <div>
-          <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
-          <p>10.02.2023</p>
-        </div>
-        <div>
-          <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
-          <p>10.02.2023</p>
-        </div>
-        <div>
-          <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
-          <p>10.02.2023</p>
-        </div>
-        <div>
-          <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
-          <p>10.02.2023</p>
-        </div>
+  <section class="home">
+    <div class="container home__container">
+      <div class="home__title-container">
+        <h1 class="home__title">
+          HOUSE OF <span class="home__title-main">GAMBLING</span>
+        </h1>
+        <p class="home__subtitle">Raise your ROI with direct advertiser</p>
+        <button class="main-button main-button_active title__button">Become a Partner</button>
+      </div>
+      <div class="blog">
+        <p class="blog__title">BLOG</p>
+        <ul class="blog__container">
+          <li class="blog__review">
+            <p class="blog__review-text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+            <p class="blog__review-date">10.02.2023</p>
+          </li>
+          <li class="blog__review">
+            <p class="blog__review-text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+            <p class=blog__review-date>10.02.2023</p>
+          </li>
+          <li class="blog__review">
+            <p class="blog__review-text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+            <p class=blog__review-date>10.02.2023</p>
+          </li>
+          <li class="blog__review">
+            <p class="blog__review-text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+            <p class="blog__review-date">10.02.2023</p>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
   <footer>
-    <div>
-      <nav>
-        <ul>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Cookies</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Brand Guide</a></li>
+    <div class="container footer__container">
+      <nav class="footer__menu">
+        <ul class="item-list">
+          <li class="item"><a class="menu-link" href="#">Terms & Conditions</a></li>
+          <li class="item"><a class="menu-link" href="#">Cookies</a></li>
+          <li class="item"><a class="menu-link" href="#">Contacts</a></li>
+          <li class="item"><a class="menu-link" href="#">Careers</a></li>
+          <li class="item"><a class="menu-link" href="#">Brand Guide</a></li>
         </ul>
       </nav>
       <div>
-        <p></p>
-        <div>
-          <div>
-            <img src="">
-          </div>
-        </div>
+        <p>Our social media:</p>
+        <ul class="social-links">
+          <li class="social-link">
+            <img src="/src/svg/Twitter.svg" alt="Twitter">
+          </li>
+          <li class="social-link">
+            <img src="/src/svg/Facebook.svg" alt="Facebook">
+          </li>
+          <li class="social-link">
+            <img src="/src/svg/Instagram.svg" alt="Instagram">
+          </li>
+          <li class="social-link">
+            <img src="/src/svg/LinkedIn.svg" alt="LinkedIn">
+          </li>
+          <li class="social-link">
+            <img src="/src/svg/YouTube.svg" alt="YouTube">
+          </li>
+          <li class="social-link">
+            <img src="/src/svg/TikTok.svg" alt="TikTok">
+          </li>
+          <li class="social-link">
+            <img src="/src/svg/Telegram.svg" alt="Telegram">
+          </li>
+          <li class="social-link">
+            <img src="/src/svg/VK.svg" alt="VK">
+          </li>
+        </ul>
       </div>
     </div>
   </footer>
